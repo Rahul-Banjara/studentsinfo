@@ -1,0 +1,70 @@
+
+.multi-item-carousel{
+.carousel-inner{
+  .item{
+    transition: 500ms ease-in-out left;
+    height: 100%;
+  }
+  .active{
+    &.left{
+      left:-33%;
+    }
+    &.right{
+      left:33%;
+    }
+  }
+  .next{
+    left: 33%;
+  }
+  .prev{
+    left: -33%;
+  }
+  @media all and (transform-3d), (-webkit-transform-3d) {
+    > .item{
+      // use your favourite prefixer here
+      transition: 500ms ease-in-out left;
+      transition: 500ms ease-in-out all;
+      backface-visibility: visible;
+      transform: none!important;
+    }
+  }
+}
+.carouse-control{
+  &.left, &.right{
+    background-image: none;
+  }
+}
+.carousel{
+  margin-top: -20px;
+}
+height :80%;
+}
+.error{
+  display: none;
+  margin-left: 10px;
+}   
+.error_show{
+  color: red;
+  margin-left: 10px;
+}
+input.invalid, textarea.invalid{
+  border: 2px solid red;
+}
+input.valid, textarea.valid{
+  border: 2px solid green;
+}
+select.invalid, select.invalid{
+    border: 2px solid green;
+}
+select.valid, select.valid{
+   border: 2px solid green; 
+}
+.removeScroll{
+    overflow-x:hidden;
+}
+.txtarea{
+    resize: none;
+}
+.ui-datepicker{
+          width: 32.5em; /*set calender width*/
+      }
