@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'https://studentsport.herokuapp.com',
 	'username' => 'postgres',
 	'password' => 'postgres',
 	'database' => 'postgres',
