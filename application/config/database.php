@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'https://studentsport.herokuapp.com',
-	'username' => 'postgres',
-	'password' => 'postgres',
-	'database' => 'postgres',
+	'hostname' => 'ec2-54-235-94-36.compute-1.amazonaws.com',
+	'username' => 'xphfbxxpxwkdbf',
+	'password' => 'e8d485d73104a6a1fe7b32ef8c4bd8ae8b389de68ca8d927a7954d4eb0d3a7f1',
+	'database' => 'd64rrac8onsqqh',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
